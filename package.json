@@ -7,7 +7,8 @@
     "dev": "hasura console --admin-secret secretsecretsecret",
     "build": "next build",
     "start": "next",
-    "start-build": "next start"
+    "start-build": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
     "tailwindcss": "^2.2.7"
   }
 }

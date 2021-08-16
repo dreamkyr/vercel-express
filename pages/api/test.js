@@ -16,6 +16,8 @@ const handlers = {
   },
 };
 
-export default async function (request, response) {
+const api = async (request, response) => {
   handlers[request.method] && handlers[request.method](request, response);
-}
+};
+
+export default api;
