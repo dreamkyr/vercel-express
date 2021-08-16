@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "hasura console --admin-secret secretsecretsecret",
     "build": "next build",
+    "next-dev": "next dev",
     "start": "next",
     "start-build": "next start",
     "lint": "next lint"
@@ -18,16 +19,33 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@svgr/webpack": "^5.5.0",
     "@urql/core": "^2.1.6",
     "express": "^4.17.1",
+    "graphql": "^15.5.1",
     "isomorphic-unfetch": "^3.1.0",
+    "jsonwebtoken": "^8.5.1",
     "next": "^11.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/node": "^16.6.1",
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9",
+    "autoprefixer": "^10.3.1",
     "eslint": "7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "11.1.0",
-    "tailwindcss": "^2.2.7"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "postcss": "^8.3.6",
+    "prettier": "^2.3.2",
+    "redux-devtools-extension": "^2.13.9",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5"
   }
 }

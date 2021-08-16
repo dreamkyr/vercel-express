@@ -3,15 +3,11 @@ const handlers = {
     return response.status(200).send();
   },
   GET: (request, response) => {
-    return response.send({
-      message: "This is test GET endpoint.",
-      hasuraURL: process.env.HASURA_BASE_URL,
-    });
+    return response.status(200).send();
   },
   POST: async (request, response) => {
     return response.send({
-      message: "This is test GET endpoint.",
-      hasuraURL: process.env.HASURA_BASE_URL,
+      ...request.body,
     });
   },
 };
