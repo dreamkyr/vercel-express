@@ -1,0 +1,30 @@
+{
+  "name": "vercel-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hasura console --admin-secret secretsecretsecret",
+    "build": "next build",
+    "start": "next",
+    "start-build": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@thomasgit123:thomasgit123/vercel-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@urql/core": "^2.1.6",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.2.7"
+  }
+}
