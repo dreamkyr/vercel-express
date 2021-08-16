@@ -1,5 +1,7 @@
 module.exports = (parse) => ({
-  env: {},
+  env: {
+    HASURA_BASE_URL: process.env.HASURA_BASE_URL,
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
