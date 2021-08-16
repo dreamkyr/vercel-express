@@ -6,10 +6,9 @@
   "scripts": {
     "dev": "hasura console --admin-secret secretsecretsecret",
     "build": "next build",
-    "next-dev": "next dev",
     "start": "next",
     "start-build": "next start",
-    "lint": "next lint"
+    "format": "prettier --config .prettierrc '**/*.{ts,tsx}' --write"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,6 @@
+{
+  "extends": ["next", "prettier", "prettier", "prettier/prettier", "prettier/react", "prettier/@typescript-eslint", "plugin:prettier/recommended"],
+  "rules": {
+    "@next/next/no-img-element": "off"
+  }
+}

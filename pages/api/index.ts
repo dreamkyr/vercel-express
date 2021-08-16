@@ -1,5 +1,5 @@
-const api = async (req, res) => {
-  res.send('API is running...');
-};
+import type { NextApiRequest, NextApiResponse } from 'next';
 
-export default api;
+export default async function (req: NextApiRequest, res: NextApiResponse) {
+  res.send('API is running...');
+}
